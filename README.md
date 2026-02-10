@@ -100,7 +100,7 @@ This project is open-source and available under the **MIT License**.
 **Gouli P. Sharath Kumar**  
 📍 Hyderabad, India  
 🔗 GitHub: https://github.com/goulipsharathkumar  
-🔗 LinkedIn: https://www.linkedin.com/in/gouli-sharath-kumar-0794552b1/  
+🔗 LinkedIn:https://www.linkedin.com/in/gouli-p-sharath-kumar-0794552b1/  
 ✉️ Email: goulipsharathkumar@gmail.com
 
 
