@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask To-Do App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>My To-Do List</h1>
+
+    <form action="/add" method="post">
+        <input type="text" name="task" placeholder="Add a task" required>
+        <button type="submit">Add</button>
+    </form>
+
+    <ul>
+        {% for todo in todos %}
+            <li class="{% if todo[2] == 1 %}completed{% endif %}">
+                
+                <div class="task-left">
+                    <input type="checkbox" onclick="location.href='/toggle/{{ todo[0] }}'" {% if todo[2] == 1 %}checked{% endif %}>
+                    <span>{{ todo[1] }}</span>
+                </div>
+
+                <a href="/delete/{{ todo[0] }}">Delete</a>
+            </li>
+        {% endfor %}
+    </ul>
+
+</div>
+
+</body>
+</html>
