@@ -27,4 +27,82 @@ This project is perfect for learning:
 ---
 
 ## 📂 Project Structure
+flask_todo_app/
+│── app.py
+│── requirements.txt
+│── todo.db (auto-created)
+│── templates/
+│ └── index.html
+│── static/
+└── style.css
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **Flask**
+- **SQLite**
+- **HTML / CSS**
+- **Jinja2 Templates**
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone this repository
+
+git clone https://github.com/YOUR_USERNAME/flask_todo_app.git
+
+cd flask_todo_app
+
+
+### 2️⃣ Install dependencies
+
+
+### 3️⃣ Run the Flask development server
+
+
+### 4️⃣ Open your browser
+
+http://127.0.0.1:5000
+
+
+---
+
+## 🔮 Future Enhancements
+
+🔹 Edit tasks  
+🔹 Add categories (Work, Personal, Study)  
+🔹 Add timestamps and deadlines  
+🔹 Dark mode toggle  
+🔹 User login system  
+🔹 Drag-and-drop tasks  
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss your ideas.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 👨‍💻 Author
+
+**Gouli P. Sharath Kumar**  
+📍 Hyderabad, India  
+🔗 GitHub: https://github.com/goulipsharathkumar  
+🔗 LinkedIn: https://www.linkedin.com/in/gouli-sharath-kumar-0794552b1/  
+✉️ Email: goulipsharathkumar@gmail.com
+
+
+ 
 
